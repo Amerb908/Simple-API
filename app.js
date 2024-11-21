@@ -1,7 +1,7 @@
 // Fetch weather data using OpenWeatherMap API
 async function fetchWeather() {
     const city = document.getElementById('city').value.trim();
-    const apiKey = '3e2bdf0bfa3c84af9d9d2d71ef2e828c'; // Replace with your actual API key
+    const apiKey = ''; // Replace with your actual API key
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
   
     // Clear previous data
